@@ -15,6 +15,6 @@ The purpose of me creating this project is to make your life a lot easier when i
 
 ### Contact
 
-Go check my [website][website]
+Go check out my [website][website]
 
 [website]: https://youssof.live/
