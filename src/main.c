@@ -11,6 +11,7 @@ int main(void) {
     printf("\t1: Find Repository\n");
     printf("\t2: How This Works\n");
     printf("\t3: About\n");
+    printf("\t4: Exit\n");
     printf("\n");
 
     int option_chosen;
@@ -23,6 +24,9 @@ int main(void) {
     }
     else if (option_chosen == 3) {
         about();
+    }
+    else if (option_chosen == 4) {
+        exit(0);
     }
     
     return 0;
