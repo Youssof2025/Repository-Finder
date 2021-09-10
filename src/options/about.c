@@ -5,7 +5,7 @@
 void about() {
     system("clear");
     printf("\n\n\tABOUT\t\n\n");
-    printf("\tThis is a programe that allows the user to find repositories on his local machine, this howevery could extend into finding repositories on the web.\n");
+    printf("\tThis is a programe written in the C programming language, it helps the user find repositories on his local machine.\n");
     printf("\n");
 
     int option;
