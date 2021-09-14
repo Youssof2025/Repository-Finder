@@ -1,11 +1,7 @@
 #pragma once
 #include <stdio.h>
-#include <stdlib.h>
-#include "../options/finding-repositories.c"
-#include "../options/how-this-works.c"
-#include "../options/about.c"
 
-void home_screen() {
+void screen() {
     printf("\n\n\tWELCOME TO REPOSITORY FINDER\t\n\n");
 
     printf("\t1: Find Repository\n");
