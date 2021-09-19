@@ -1,5 +1,6 @@
 #pragma once
 #include <stdio.h>
+#include <stdlib.h>
 #include "home_screen.c"
 
 void choose_option(){
@@ -10,8 +11,7 @@ void choose_option(){
 
     scanf("%d", &option);
     if (option == 1) {
-        //home_screen();
-        printf("Under Construction");
+        system("cd .. && cd src && cd tools && ./home_screen.sh && echo end");
     }
     else if (option == 2) {
         exit(0);

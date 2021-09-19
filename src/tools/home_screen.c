@@ -26,6 +26,6 @@ void home_screen() {
         about();
     }
     else if (option_chosen == 4) {
-        exit(0);
+        system("exit");
     }
 }
